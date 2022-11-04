@@ -1,0 +1,33 @@
+###
+POST http://localhost:5100/api/user HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Carlos Antonio Cruz ",
+  "fechaNacimiento":"11/05/1998",
+  "email": "Carlos@email.com",
+  "password":"354540",
+  "age":50
+}
+
+###
+GET http://localhost:5100/api/user HTTP/1.1
+
+
+
+###
+DELETE  http://localhost:5100/api/user/63647040e0dd1170d20350df HTTP/1.1
+
+
+
+###
+PUT http://localhost:5100/api/user/63647261164121c4f2490465 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Amparo Cruz",
+  "fechaNacimiento":"11/05/1951",
+  "email": "Amparo@gmail.com",
+  "password":"87879878",
+  "age":60
+}

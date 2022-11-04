@@ -1,0 +1,8 @@
+###
+POST http://localhost:5100/api/compra HTTP/1.1
+Content-Type: application/json
+
+{
+  "cantidad": 25,
+  "nombreProducto":"Shampoo anti caspa"
+}
